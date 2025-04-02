@@ -1,0 +1,241 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1f1d514b-67fa-4200-8a91-3df4fa362116")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 80.01 82.55)
+		(size 35.56 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0343c682-befc-4ee5-b37a-1320720af1f7")
+		(property "Sheetname" "PSU"
+			(at 80.01 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 80.01 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "star_chiplet"
+				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 81.28)
+		(size 43.18 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "403689b5-5c79-4332-9e86-3dfd640c9dd2")
+		(property "Sheetname" "W25Q32JV"
+			(at 215.9 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "W25Q32JV.kicad_sch"
+			(at 215.9 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "star_chiplet"
+				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 81.28)
+		(size 31.75 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40c28c1b-d30a-4a1e-85e0-499939fc0f40")
+		(property "Sheetname" "USB to UART"
+			(at 170.18 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbtouart.kicad_sch"
+			(at 170.18 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "star_chiplet"
+				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 115.57)
+		(size 33.02 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a814ed7-7416-4f5e-bc01-d718a62c9774")
+		(property "Sheetname" "perpherials"
+			(at 135.89 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "perpherials.kicad_sch"
+			(at 135.89 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "star_chiplet"
+				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 82.55)
+		(size 30.48 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f55009de-82e1-4f9b-8429-e9cb16b2a0ae")
+		(property "Sheetname" "DSC6001"
+			(at 125.73 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DSC6001.kicad_sch"
+			(at 125.73 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "star_chiplet"
+				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 83.82)
+		(size 31.75 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f72ae011-b6fe-471b-aff8-6fec1b1b0cbf")
+		(property "Sheetname" "Caravel"
+			(at 38.1 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Caravel.kicad_sch"
+			(at 38.1 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "star_chiplet"
+				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
