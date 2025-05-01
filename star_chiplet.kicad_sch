@@ -114,7 +114,7 @@
 		(instances
 			(project "star_chiplet"
 				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
@@ -207,7 +207,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f72ae011-b6fe-471b-aff8-6fec1b1b0cbf")
-		(property "Sheetname" "Caravel"
+		(property "Sheetname" "Socket Connector"
 			(at 38.1 83.1084 0)
 			(effects
 				(font
@@ -228,7 +228,7 @@
 		(instances
 			(project "star_chiplet"
 				(path "/1f1d514b-67fa-4200-8a91-3df4fa362116"
-					(page "2")
+					(page "5")
 				)
 			)
 		)
