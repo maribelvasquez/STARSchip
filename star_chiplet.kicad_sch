@@ -5,9 +5,439 @@
 	(uuid "1f1d514b-67fa-4200-8a91-3df4fa362116")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c8d387-11b9-428f-acbc-f0a271db1413")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291bd341-017e-47f8-9ab7-528601ca9660")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d245d7e-6a00-4585-bb50-55af52a6aa37")
+	)
+	(bus
+		(pts
+			(xy 76.2 88.9) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66defbc1-90b1-4f39-a321-1548eba85ad5")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777b66c8-45f8-42f5-b306-90c200415f30")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e28c575-e2c0-4c0b-85cc-04d06269b958")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2b65c6-47c5-419b-8839-d6948b499f5c")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba83ea8-4086-4fc0-ac09-449d99dbc411")
+	)
+	(bus
+		(pts
+			(xy 69.85 99.06) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27aad09-589e-4b67-b70e-6439233fa618")
+	)
+	(wire
+		(pts
+			(xy 215.9 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02ce19a-7cd7-4e17-b78b-3c24326a950f")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82b470e-61eb-47a1-ada8-7ed748f08078")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4809423-05f8-4426-a87b-e7a658361c2c")
+	)
+	(bus
+		(pts
+			(xy 76.2 99.06) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ae9ff0-157a-40c8-a5c7-be89cbbab719")
+	)
+	(hierarchical_label "RESET#"
+		(shape input)
+		(at 170.18 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c9bb7c2-de1c-4784-9b04-a67d73d04c4e")
+	)
+	(hierarchical_label "SDIO{D0, D3}"
+		(shape input)
+		(at 69.85 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a9977d4-5bca-4cf1-a214-dbd54e3c2b01")
+	)
+	(hierarchical_label "DN"
+		(shape input)
+		(at 170.18 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2016a5e8-d94d-4105-9b1d-80d5feb0d72a")
+	)
+	(hierarchical_label "USB{P, N}"
+		(shape input)
+		(at 69.85 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2407c3a2-e9af-4ef5-b259-c3ca060d522f")
+	)
+	(hierarchical_label "USBC_D{P,N}"
+		(shape input)
+		(at 80.01 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c2ce02b-2998-4ed7-8b72-daf30252b974")
+	)
+	(hierarchical_label "GPIO{D2, D3}"
+		(shape input)
+		(at 215.9 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "449fe9fb-8c9e-46a9-96e3-22ac0c11a751")
+	)
+	(hierarchical_label "PCIE{TX.P, TX.N, RX.P, RX.N}"
+		(shape input)
+		(at 69.85 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5053050f-65c5-4a56-9488-eba6eb9e71af")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 215.9 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55ff46db-9e7a-4c21-b8fc-cfd014fac3ca")
+	)
+	(hierarchical_label "EECLK"
+		(shape input)
+		(at 170.18 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "582b1c8e-16c2-42fd-a348-016bebb44110")
+	)
+	(hierarchical_label "ALERT"
+		(shape input)
+		(at 69.85 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64a57c01-58e1-44f1-a66e-82c8aa9db276")
+	)
+	(hierarchical_label "PCIE{RST, WAKE}"
+		(shape input)
+		(at 69.85 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b044dc2-9c66-43d7-8386-05c68c836c73")
+	)
+	(hierarchical_label "TEST"
+		(shape input)
+		(at 170.18 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70205b3d-e664-43f1-8d34-dc340cb9d1ca")
+	)
+	(hierarchical_label "DSC_OUT"
+		(shape input)
+		(at 170.18 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76c3b94a-4a8b-4a09-84a4-8997e584bf52")
+	)
+	(hierarchical_label "UART{WAKE, RX, TX, CTS, RTS}"
+		(shape input)
+		(at 69.85 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7edc6a17-800a-4b44-a6b8-04e3070211ab")
+	)
+	(hierarchical_label "I2C{DATA, CLK}"
+		(shape input)
+		(at 69.85 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b3cceea-7ee8-4c7a-8731-fd2da95cf965")
+	)
+	(hierarchical_label "DP"
+		(shape input)
+		(at 170.18 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a14c170-8469-4689-a29f-fbc0cc570e29")
+	)
+	(hierarchical_label "EECS"
+		(shape input)
+		(at 170.18 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8023f43-2361-417c-bb26-edc8f4d63cd2")
+	)
+	(hierarchical_label "clock"
+		(shape input)
+		(at 125.73 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac66d8e8-b443-45ae-85d2-5bae179e432e")
+	)
+	(hierarchical_label "PWRU_IN"
+		(shape input)
+		(at 80.01 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad97d7ac-a015-4565-96e0-23b1785da8a2")
+	)
+	(hierarchical_label "EEDATA"
+		(shape input)
+		(at 170.18 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b74ff09e-75fe-4564-bfae-ec1ecdd298f6")
+	)
+	(hierarchical_label "DSC_IN"
+		(shape input)
+		(at 170.18 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbebf8bc-52d1-4953-a6ed-06208bb14444")
+	)
+	(hierarchical_label "REF"
+		(shape input)
+		(at 170.18 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5e4cee4-0ccd-42ae-88cf-8f3a0f7c2e82")
+	)
+	(hierarchical_label "CLKREQ"
+		(shape input)
+		(at 69.85 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfc835d9-d81b-4ea4-83cb-885f2f757f79")
+	)
+	(hierarchical_label "I2C{CLK, LRCLK, SDIN, SDOUT}"
+		(shape input)
+		(at 69.85 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1ccd0eb-a3db-4582-af86-002181d4d6c6")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 215.9 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f067b395-b1e0-4f34-9b85-48a0a6ad68d3")
+	)
 	(sheet
 		(at 80.01 82.55)
-		(size 35.56 16.51)
+		(size 35.56 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -27,7 +457,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 80.01 99.6446 0)
+			(at 80.01 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +513,7 @@
 	)
 	(sheet
 		(at 170.18 81.28)
-		(size 31.75 16.51)
+		(size 31.75 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -103,7 +533,7 @@
 			)
 		)
 		(property "Sheetfile" "usbtouart.kicad_sch"
-			(at 170.18 98.3746 0)
+			(at 170.18 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,8 +626,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 83.82)
-		(size 31.75 17.78)
+		(at 30.48 83.82)
+		(size 39.37 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -208,7 +638,7 @@
 		)
 		(uuid "f72ae011-b6fe-471b-aff8-6fec1b1b0cbf")
 		(property "Sheetname" "Socket Connector"
-			(at 38.1 83.1084 0)
+			(at 30.48 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +647,7 @@
 			)
 		)
 		(property "Sheetfile" "Caravel.kicad_sch"
-			(at 38.1 102.1846 0)
+			(at 30.48 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
